@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header-flex {
+        @apply flex items-center justify-between w-[1220px] mx-auto
+    }
+
+    .btn {
+        @apply flex items-center text-white uppercase font-semibold text-[13px] h-[55px] px-[45px] rounded-full transition duration-200 ease-linear
+    }
+
+    .btn-primary {
+        @apply bg-gradient-to-r from-primary-color to-primary-color-to
+    }
+
+    .center-transform {
+        @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+    }
+
+    .banner {
+        @apply flex items-center justify-center py-8 uppercase cursor-pointer font-bold text-[14px]
+    }
+
+    .active {
+        @apply bg-primary-color text-white
+    }
+
+    .input-booking {
+        @apply mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 block w-full rounded-md
+    }
+
+    .text-booking {
+        @apply block text-sm font-medium text-white uppercase
+    }
+
+    .color-primary {
+        @apply bg-gradient-to-r from-primary-color to-primary-color-to
+    }
+
+    .input-contact {
+        @apply bg-transparent placeholder-white outline-none pb-3 text-[12px] font-sans w-full border-b-2 border-gray-200
+    }
+
+    .header_name {
+        @apply text-[18px] uppercase font-bold text-white
+    }
+
+    .footer_name {
+        @apply text-[18px] uppercase font-bold mb-9
+    }
+
+    .title {
+        @apply text-[30px] font-bold uppercase
+    }
+
+    .selection {
+        @apply flex items-center text-[12px] uppercase font-bold justify-between pl-8 pr-2 py-2 border-2 border-gray-300 cursor-pointer
+    }
+
+    .input-search {
+        @apply py-[8px] px-[10px] text-black text-[13px] rounded-md absolute right-5 top-7 w-[300px] outline-none border-none animate-show-search placeholder:text-[13px] transition-all duration-1000 ease-out
+    }
+    
+    .navbar-item {
+        @apply hover:text-primary-color pb-1 transition-all relative
+    }
+
+    .line-bottom {
+        @apply after:content-[""] after:absolute after:bg-gradient-to-r from-primary-color to-primary-color-to after:w-full after:h-[3px] after:bottom-[-3px] after:right-0
+    }
+    .line-bottom-hover {
+        @apply after:content-[""] after:absolute hover:after:bg-gradient-to-r from-primary-color to-primary-color-to after:w-full after:h-[3px] after:bottom-[-3px] after:right-0
+    }
+}
+
