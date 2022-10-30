@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/travelix/static/css/main.ae916f6d.css",
-    "main.js": "/travelix/static/js/main.fe1eab5f.js",
+    "main.js": "/travelix/static/js/main.9d483fbd.js",
     "static/media/blog.jpg": "/travelix/static/media/blog.30835fe406c116f07a98.jpg",
     "static/media/background.webp": "/travelix/static/media/background.7ba1f61dae49899d99bb.webp",
     "static/media/besttour.png": "/travelix/static/media/besttour.f675e13e71eb0e0aa372.png",
@@ -37,10 +37,10 @@
     "static/media/logo.webp": "/travelix/static/media/logo.9f2f6483a0196d9086de.webp",
     "index.html": "/travelix/index.html",
     "main.ae916f6d.css.map": "/travelix/static/css/main.ae916f6d.css.map",
-    "main.fe1eab5f.js.map": "/travelix/static/js/main.fe1eab5f.js.map"
+    "main.9d483fbd.js.map": "/travelix/static/js/main.9d483fbd.js.map"
   },
   "entrypoints": [
     "static/css/main.ae916f6d.css",
-    "static/js/main.fe1eab5f.js"
+    "static/js/main.9d483fbd.js"
   ]
 }
